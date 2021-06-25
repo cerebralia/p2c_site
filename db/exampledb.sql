@@ -41,7 +41,7 @@ INSERT INTO `settings` (`id`, `name`, `value`, `info`) VALUES
 (1, 'active_user_per_page', '100', 'Number of active users per page'),
 (2, 'expired_user_per_page', '25', 'Number of inactive users per page'),
 (3, 'version_build', '19', 'Cheat version for updates'),
-(4, 'cheat_name', 'Legitware', 'Cheat name'),
+(4, 'cheat_name', 'HKG.cc', 'Cheat name'),
 (5, 'cheat_enable', '1', 'Is cheat enabled');
 
 -- --------------------------------------------------------

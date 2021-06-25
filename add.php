@@ -48,7 +48,7 @@ if( $is_name && $is_hwid && $is_date )
 
 <head>
 	<meta charset="UTF-8">
-	<title>Legitware</title>
+	<title>HKG.cc</title>
 
 	<link rel="stylesheet" href="style/bootstrap.min.css">
 	<link rel="stylesheet" href="style/material-kit.css">
