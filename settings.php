@@ -93,13 +93,13 @@ $SettingsRow = CEngineDB::$EngineDB->get('settings');
 		</nav>
 <?php
 if ( $status_code == 1 )
-	echo "\t\t<div class='alert alert-danger'>Ошибка в поиске параметра</div>";
+	echo "\t\t<div class='alert alert-danger'>Parameter search error</div>";
 else if ( $status_code == 2 )
-	echo "\t\t<div class='alert alert-danger'>Ошибка при обновлении параметра</div>";
+	echo "\t\t<div class='alert alert-danger'>Error while updating parameter</div>";
 else if ( $status_code == 3 )
-	echo "\t\t<div class='alert alert-success'>Параметры успешно обновленны</div>";
+	echo "\t\t<div class='alert alert-success'>Parameters updated successfully</div>";
 else if ( CEngineDB::$EngineDB->count <= 0 )
-	echo "\t\t<div class='alert alert-danger'>Ошибка в поиске параметров в базе данных</div>";
+	echo "\t\t<div class='alert alert-danger'>Error searching parameters in the database</div>";
 ?>
 
 	<?php
